@@ -1,0 +1,107 @@
+/* plain old stylesheet. nothing fancy. */
+
+body {
+  background: #ffffff;
+  color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 20px 16px;
+}
+
+#wrap {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 26px;
+  font-weight: normal;
+  margin: 0 0 4px 0;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  font-weight: normal;
+  border-bottom: 1px dotted #999999;
+  margin: 24px 0 8px 0;
+}
+
+a:link    { color: #0000ee; }
+a:visited { color: #551a8b; }
+a:hover   { color: #ff0000; background: #ffffcc; }
+a:active  { color: #ff0000; }
+
+hr {
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 16px 0;
+}
+
+#nav {
+  font-size: 12px;
+}
+
+#nav b {
+  color: #000000;
+}
+
+.tagline {
+  color: #666666;
+  font-style: italic;
+  margin: 0;
+}
+
+.small {
+  font-size: 11px;
+  color: #666666;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+table.list {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.list td {
+  padding: 3px 8px 3px 0;
+  vertical-align: top;
+}
+
+table.list td.date {
+  white-space: nowrap;
+  color: #666666;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  width: 1%;
+}
+
+img.photo {
+  float: right;
+  border: 1px solid #000000;
+  margin: 0 0 8px 12px;
+  max-width: 120px;
+  height: auto;
+}
+
+.new {
+  color: #ff0000;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#footer {
+  margin-top: 32px;
+  font-size: 11px;
+  color: #666666;
+}
